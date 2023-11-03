@@ -15,16 +15,16 @@ import Footer from "./Ui/Footer";
 function App() {
   return (
     <div>
-      <Header/>
       <BrowserRouter>
+      <Header/>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/domu" element={<Home />} />
           <Route path="/akce" element={<Akce />} />
           <Route path="/ubytovani" element={<Ubytovani />} />
           <Route path="/cenik" element={<Cenik />} />
           <Route path="/aktivity" element={<Aktivity />} />
-          <Route path="/kontakty" element={<Kontakt />} />
+          <Route path="/kontakt" element={<Kontakt />} />
           <Route path="/fotografie" element={<Fotografie />} />
         </Routes>
       </BrowserRouter>
