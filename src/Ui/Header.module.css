@@ -1,5 +1,5 @@
 .layout {
-  background-color: #966f33;
+  background-color: #a1662f;
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
@@ -30,6 +30,7 @@ nav ul {
 
 .linkItems {
   margin-right: 20px;
+  text-transform: uppercase;
 }
 
 nav a {
@@ -56,7 +57,7 @@ nav a:active {
   display: none;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 850px) {
   .navItems {
     display: none;
   }
@@ -66,15 +67,18 @@ nav a:active {
   }
 
   .showMenu {
-    background-color: #c98724;
+    background-color: #a1662f;
+    border: 2px solid white;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     position: absolute;
-    top: 124px;
+    top: 19.4%;
     right: 0;
-    width: 20%;
+    width: 150px;
+    height: auto;
+    margin: 0px 0px;
   }
 
   .showMenu a {

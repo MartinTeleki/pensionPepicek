@@ -7,6 +7,10 @@ import { Sling as Hamburger } from "hamburger-react";
 function Header() {
   const [isOpen, setOpen] = useState(false);
 
+  const handleChangePage = () => {
+    setOpen(false);
+  };
+
   return (
     <header className={styles.layout}>
       <div className={styles.logo}>
@@ -16,22 +20,47 @@ function Header() {
       </div>
       <nav>
         <ul className={`${styles.navItems} ${isOpen ? styles.showMenu : ""}`}>
-          <Link className={styles.linkItems} to="/domu">
+          <Link
+            className={styles.linkItems}
+            to="/domu"
+            onClick={handleChangePage}
+          >
             Domů
           </Link>
-          <Link className={styles.linkItems} to="/akce">
+
+          <Link
+            className={styles.linkItems}
+            to="/akce"
+            onClick={handleChangePage}
+          >
             Akce
           </Link>
-          <Link className={styles.linkItems} to="/ubytovani">
+          <Link
+            className={styles.linkItems}
+            to="/ubytovani"
+            onClick={handleChangePage}
+          >
             Ubytování
           </Link>
-          <Link className={styles.linkItems} to="/cenik">
+          <Link
+            className={styles.linkItems}
+            to="/cenik"
+            onClick={handleChangePage}
+          >
             Aktivity
           </Link>
-          <Link className={styles.linkItems} to="/aktivity">
+          <Link
+            className={styles.linkItems}
+            to="/aktivity"
+            onClick={handleChangePage}
+          >
             Kontakt
           </Link>
-          <Link className={styles.linkItems} to="/kontakt">
+          <Link
+            className={styles.linkItems}
+            to="/kontakt"
+            onClick={handleChangePage}
+          >
             Fotografie
           </Link>
         </ul>
