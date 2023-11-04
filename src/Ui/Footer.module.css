@@ -1,7 +1,7 @@
 /* footer of App */
 
 :root {
-  --background-color-black: #311807;
+  /* --background-color-black: #311807; */
   --color-white: #fff;
 }
 
@@ -11,13 +11,17 @@
   justify-content: center;
   text-align: center;
   text-decoration: none;
-  background-color: var(--background-color-black);
+
+  /* background-color: var(--background-color-black); */
+  background: linear-gradient(to left, #76411b, #a2550d);
   color: var(--color-white);
   padding: 1.25rem 0;
   text-align: center;
   width: 100%;
-  position: fixed;
+  height: 200px;
+
   bottom: 0;
+  opacity: 1;
 }
 
 .footerLink {

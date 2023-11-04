@@ -1,6 +1,8 @@
 .layout {
   /* background-color: #a1662f; */
-  background-color: #311807;
+  /* background-color: #311807; */
+  background: linear-gradient(to right, #76411b, #a2550d);
+  opacity: 1;
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
@@ -68,12 +70,13 @@ nav a:active {
   }
 
   .showMenu {
-    background-color: #a1662f;
-    border: 2px solid white;
+    /* background-color: #a1662f; */
+    background: linear-gradient(#76411b, #df8a3b);
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     position: absolute;
     top: 19.4%;
     right: 0;

@@ -27,8 +27,8 @@ function App() {
           <Route path="/kontakt" element={<Kontakt />} />
           <Route path="/fotografie" element={<Fotografie />} />
         </Routes>
-      </BrowserRouter>
       <Footer/>
+      </BrowserRouter>
     </div>
   );
 }
