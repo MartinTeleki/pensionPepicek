@@ -14,6 +14,12 @@
   width: 100px;
   height: 80px;
   margin-left: 20px;
+  cursor: pointer;
+  transition: transform 2s ease-in-out;
+}
+
+.logo img:hover {
+  transform: rotateY(360deg);
 }
 
 nav ul {

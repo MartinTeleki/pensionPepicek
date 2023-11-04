@@ -6,6 +6,10 @@
 }
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   text-decoration: none;
   background-color: var(--background-color-black);
   color: var(--color-white);
@@ -24,3 +28,12 @@
 .footerLink:hover {
   text-decoration: underline;
 }
+
+.iconsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+

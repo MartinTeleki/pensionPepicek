@@ -10,7 +10,9 @@ function Header() {
   return (
     <header className={styles.layout}>
       <div className={styles.logo}>
-        <img src={logo} alt="Logo" />
+        <Link to="/domu">
+          <img src={logo} alt="Logo" />
+        </Link>
       </div>
       <nav>
         <ul className={`${styles.navItems} ${isOpen ? styles.showMenu : ""}`}>
