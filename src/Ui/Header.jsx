@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import styles from "./Header.module.css";
 import logo from "../img/logo8.png";
 import { useState } from "react";
@@ -14,55 +14,55 @@ function Header() {
   return (
     <header className={styles.layout}>
       <div className={styles.logo}>
-        <Link to="/domu">
+        <NavLink to="/domu">
           <img src={logo} alt="Logo" />
-        </Link>
+        </NavLink>
       </div>
       <nav>
         <ul className={`${styles.navItems} ${isOpen ? styles.showMenu : ""}`}>
-          <Link
-            className={styles.linkItems}
-            to="/domu"
+          <NavLink
+            className={styles.linkItems} 
+            to="/domu"  
             onClick={handleChangePage}
           >
             Domů
-          </Link>
+          </NavLink>
 
-          <Link
+          <NavLink
             className={styles.linkItems}
             to="/akce"
             onClick={handleChangePage}
           >
             Akce
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             className={styles.linkItems}
             to="/ubytovani"
             onClick={handleChangePage}
           >
             Ubytování
-          </Link>
-          <Link
-            className={styles.linkItems}
-            to="/cenik"
-            onClick={handleChangePage}
-          >
-            Aktivity
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             className={styles.linkItems}
             to="/aktivity"
             onClick={handleChangePage}
           >
-            Kontakt
-          </Link>
-          <Link
+            Aktivity
+          </NavLink>
+          <NavLink
             className={styles.linkItems}
             to="/kontakt"
             onClick={handleChangePage}
           >
-            Fotografie
-          </Link>
+            Kontakt
+          </NavLink>
+          <NavLink
+            className={styles.linkItems}
+            to="/galerie"
+            onClick={handleChangePage}
+          >
+            Galerie
+          </NavLink>
         </ul>
       </nav>
       <div className={styles.hamburgerMenu}>
