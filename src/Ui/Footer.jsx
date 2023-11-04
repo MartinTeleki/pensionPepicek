@@ -1,13 +1,11 @@
 import styles from "./Footer.module.css";
 
-
 export default function Footer() {
   return (
     <div className={styles.footer}>
       <p>
         <div className={styles.iconsContainer}>
-          <span className="material-symbols-outlined">mail</span> +420 777138
-          131
+          <span className="material-symbols-outlined">mail</span> +420 777138131
         </div>{" "}
         <br />
         <div className={styles.iconsContainer}>

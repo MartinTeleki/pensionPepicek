@@ -1,7 +1,7 @@
 /* footer of App */
 
 :root {
-  --background-color-black: #A1662F;
+  --background-color-black: #311807;
   --color-white: #fff;
 }
 
@@ -33,7 +33,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  letter-spacing: 1px;
 }
-
-
