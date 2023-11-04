@@ -2,7 +2,12 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  
 
+}
+
+.app{
+  background: rgb(222, 222, 222);
 }
 
 .material-symbols-outlined {

@@ -6,42 +6,33 @@ import pokojslunce from "../img/pokojslunce.jpg";
 import pokojpohoda from "../img/pokojpohoda.jpg";
 import pokojjezero from "../img/pokojjezero.jpg";
 
-
 function Ubytovani() {
   return (
-    <div>
-      <ul className={styles.apartmanLinks}>
-        <Link to="/ubytovani/nadkrcmou">
-          Apartmány Nad Krčmou
-        </Link>
+    <div className={styles.layout}>
+  
+        <ul className={styles.apartmanLinks}>
+          <Link to="/ubytovani/nadkrcmou">Apartmány Nad Krčmou</Link>
           <div>
             <img src={pokojnadkolarnou} alt="pokoj Nad Kolárnou" />
           </div>
-        <Link to="/ubytovani/nadkolarnou">
-          Apartmán Nad Kolárnou
-        </Link>
+          <Link to="/ubytovani/nadkolarnou">Apartmán Nad Kolárnou</Link>
           <div>
             <img src={pokojnadkrcmou} alt="pokoj Nad Krcmou" />
           </div>
-        <Link to="/ubytovani/slunce">
-          Apartmány Slunce
-        </Link>
+          <Link to="/ubytovani/slunce">Apartmány Slunce</Link>
           <div>
             <img src={pokojslunce} alt="pokoj Slunce" />
           </div>
-        <Link to="/ubytovani/pohoda">
-          Apartmány Pohoda
-        </Link>
+          <Link to="/ubytovani/pohoda">Apartmány Pohoda</Link>
           <div>
             <img src={pokojpohoda} alt="pokoj Pohoda" />
           </div>
-        <Link to="/ubytovani/jezero">
-          Apartmány Jezero
-        </Link>
+          <Link to="/ubytovani/jezero">Apartmány Jezero</Link>
           <div>
             <img src={pokojjezero} alt="pokoj Jezero" />
           </div>
-      </ul>
+        </ul>
+    
     </div>
   );
 }

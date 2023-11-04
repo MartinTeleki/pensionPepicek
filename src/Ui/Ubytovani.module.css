@@ -1,9 +1,13 @@
+.layout {
+  background: rgb(222, 222, 222);
+  margin: 40px 0px;
+}
+
 .apartmanLinks {
   display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  background: rgb(222, 222, 222);
 }
 
 .apartmanLinks a {
@@ -34,4 +38,3 @@
   margin-top: 20px;
   border: 2px solid white;
 }
-

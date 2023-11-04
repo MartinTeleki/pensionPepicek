@@ -50,6 +50,7 @@ nav a:hover {
   opacity: 0.8;
   transform: scale(1.04);
   text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 nav a:active {
@@ -57,9 +58,10 @@ nav a:active {
 }
 
 .active {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-underline-offset: 8px;
   border-right: 2px solid white;
+  border-left: 2px solid white;
 }
 
 /* Default styl pro hamburger menu */

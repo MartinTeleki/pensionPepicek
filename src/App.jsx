@@ -17,7 +17,7 @@ import Jezero from "./Ui/apartmany/Jezero";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <BrowserRouter>
         <Header />
         <Routes>
