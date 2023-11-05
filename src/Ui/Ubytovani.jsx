@@ -9,30 +9,28 @@ import pokojjezero from "../img/pokojjezero.jpg";
 function Ubytovani() {
   return (
     <div className={styles.layout}>
-  
-        <ul className={styles.apartmanLinks}>
-          <Link to="/ubytovani/nadkrcmou">Apartmány Nad Krčmou</Link>
-          <div>
-            <img src={pokojnadkolarnou} alt="pokoj Nad Kolárnou" />
-          </div>
-          <Link to="/ubytovani/nadkolarnou">Apartmán Nad Kolárnou</Link>
-          <div>
-            <img src={pokojnadkrcmou} alt="pokoj Nad Krcmou" />
-          </div>
-          <Link to="/ubytovani/slunce">Apartmány Slunce</Link>
-          <div>
-            <img src={pokojslunce} alt="pokoj Slunce" />
-          </div>
-          <Link to="/ubytovani/pohoda">Apartmány Pohoda</Link>
-          <div>
-            <img src={pokojpohoda} alt="pokoj Pohoda" />
-          </div>
-          <Link to="/ubytovani/jezero">Apartmány Jezero</Link>
-          <div>
-            <img src={pokojjezero} alt="pokoj Jezero" />
-          </div>
-        </ul>
-    
+      <ul className={styles.apartmanLinks}>
+        <Link to="/ubytovani/nadkrcmou">Apartmány Nad Krčmou</Link>
+        <div>
+          <img src={pokojnadkolarnou} alt="pokoj Nad Krčmou" />
+        </div>
+        <Link to="/ubytovani/nadkolarnou">Apartmán Nad Kolárnou</Link>
+        <div>
+          <img src={pokojnadkrcmou} alt="pokoj Nad Kolárnou" />
+        </div>
+        <Link to="/ubytovani/slunce">Apartmán Slunce</Link>
+        <div>
+          <img src={pokojslunce} alt="pokoj Slunce" />
+        </div>
+        <Link to="/ubytovani/pohoda">Apartmán Pohoda</Link>
+        <div>
+          <img src={pokojpohoda} alt="pokoj Pohoda" />
+        </div>
+        <Link to="/ubytovani/jezero">Apartmán Jezero</Link>
+        <div>
+          <img src={pokojjezero} alt="pokoj Jezero" />
+        </div>
+      </ul>
     </div>
   );
 }
