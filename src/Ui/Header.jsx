@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
 import styles from "./Header.module.css";
-import logo from "../img/logo8.png";
+import logo from "../img/logo8.webp";
 import { useState } from "react";
 import { Sling as Hamburger } from "hamburger-react";
 

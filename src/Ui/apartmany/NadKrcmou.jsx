@@ -1,9 +1,9 @@
 import styles from "./NadKolarnou.module.css";
-import pokojnadkolarnou1 from "../../img/pokojnadkolarnou1.jpg";
-import pokojnadkolarnou2 from "../../img/pokojnadkolarnou2.jpg";
-import pokojnadkolarnou3 from "../../img/pokojnadkolarnou3.jpg";
-import pokojnadkolarnou4 from "../../img/pokojnadkolarnou4.jpg";
-import pokojnadkolarnou5 from "../../img/pokojnadkolarnou5.jpg";
+import pokojnadkolarnou1 from "../../img/pokojnadkolarnou1.webp";
+import pokojnadkolarnou2 from "../../img/pokojnadkolarnou2.webp";
+import pokojnadkolarnou3 from "../../img/pokojnadkolarnou3.webp";
+import pokojnadkolarnou4 from "../../img/pokojnadkolarnou4.webp";
+import pokojnadkolarnou5 from "../../img/pokojnadkolarnou5.webp";
 
 function nadKrcmou() {
   return (

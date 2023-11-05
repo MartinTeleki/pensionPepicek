@@ -1,6 +1,6 @@
 import styles from "./NadKolarnou.module.css";
-import pokojnadkrcmou from "../../img/pokojnadkrcmou.jpg";
-import pension7 from "../../img/pension7.jpg";
+import pokojnadkrcmou from "../../img/pokojnadkrcmou.webp";
+import pension7 from "../../img/pension7.webp";
 
 function nadKolarnou() {
   return (

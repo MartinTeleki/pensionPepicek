@@ -1,15 +1,14 @@
 import React from "react";
 import styles from "./Home.module.css";
-import pension from "../img/pension.jpg";
-import pension2 from "../img/pension2.jpg";
-import pension3 from "../img/pension3.jpg";
-import pension5 from "../img/pension5.jpg";
-import pension6 from "../img/pension6.jpg";
-import pension8 from "../img/pension8.jpg";
-import pension14 from "../img/pension14.jpeg";
-import pension18 from "../img/pension18.jpg";
-import pokoj from "../img/pokoj.jpg";
-import kuchyn from "../img/kuchyn.jpg";
+import pension from "../img/pension.webp";
+import pension3 from "../img/pension3.webp";
+import pension5 from "../img/pension5.webp";
+import pension6 from "../img/pension6.webp";
+import pension8 from "../img/pension8.webp";
+import pension14 from "../img/pension14.webp";
+import pension18 from "../img/pension18.webp";
+import pokoj from "../img/pokoj.webp";
+import kuchyn from "../img/kuchyn.webp";
 
 function Home() {
   return (

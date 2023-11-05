@@ -1,6 +1,6 @@
 import styles from "./NadKolarnou.module.css";
-import pokojjezero1 from "../../img/pokojjezero1.jpg";
-import pension2 from "../../img/pension2.jpg";
+import pokojjezero1 from "../../img/pokojjezero1.webp";
+import pension2 from "../../img/pension2.webp";
 
 
 function Jezero() {

@@ -1,6 +1,6 @@
 import styles from "./NadKolarnou.module.css";
-import pokojpohoda1 from "../../img/pokojpohoda1.jpg";
-import pension4 from "../../img/pension4.jpg";
+import pokojpohoda1 from "../../img/pokojpohoda1.webp";
+import pension4 from "../../img/pension4.webp";
 
 function pohoda() {
   return (

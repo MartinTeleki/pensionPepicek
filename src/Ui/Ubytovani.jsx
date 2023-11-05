@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import styles from "./Ubytovani.module.css";
-import pokojnadkolarnou from "../img/pokojnadkolarnou.jpg";
-import pokojnadkrcmou from "../img/pokojnadkrcmou.jpg";
-import pokojslunce from "../img/pokojslunce.jpg";
-import pokojpohoda from "../img/pokojpohoda.jpg";
-import pokojjezero from "../img/pokojjezero.jpg";
+import pokojnadkolarnou from "../img/pokojnadkolarnou.webp";
+import pokojnadkrcmou from "../img/pokojnadkrcmou.webp";
+import pokojslunce from "../img/pokojslunce.webp";
+import pokojpohoda from "../img/pokojpohoda.webp";
+import pokojjezero from "../img/pokojjezero.webp";
 
 function Ubytovani() {
   return (

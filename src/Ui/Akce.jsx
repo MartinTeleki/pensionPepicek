@@ -1,14 +1,28 @@
 import { Link } from "react-router-dom";
 
 import styles from "./Akce.module.css";
-import zabijacka1 from "../img/zabijacka1.jpg";
-import zabijacka2 from "../img/zabijacka2.jpg";
-import silvestr2023 from "../img/silvestr2023.jpg";
-import pension17 from "../img/pension17.jpg";
+
+import zabijacka1 from "../img/zabijacka1.webp";
+import zabijacka2 from "../img/zabijacka2.webp";
+
+import silvestr2023 from "../img/silvestr2023.webp";
+import pension17 from "../img/pension17.webp";
+
+import svatba from "../img/svatba.webp";
+import svatba1 from "../img/svatba1.webp";
+import svatba2 from "../img/svatba2.webp";
+import svatba3 from "../img/svatba3.webp";
+import svatba4 from "../img/svatba4.webp";
+
+import akce1 from "../img/akce1.webp";
+import akce2 from "../img/akce2.webp";
+import akce3 from "../img/akce3.webp";
+import akce4 from "../img/akce4.webp";
 
 function Akce() {
   return (
     <div className={styles.layout}>
+      {/* zabijačka */}
       <article className={styles.article}>
         <section className={styles.section}>
           <h2>Akce u nás rozhodně stojí za to.</h2>
@@ -50,7 +64,7 @@ function Akce() {
 
         <section className={styles.section}></section>
       </article>
-
+      {/* Silvestr */}
       <article className={styles.article}>
         <section className={styles.section}>
           <h3>SILVESTR 2023 oslavte s námi s živou hudbou.</h3>
@@ -79,12 +93,53 @@ function Akce() {
             </Link>{" "}
           </p>
         </section>
+      </article>
+      {/* Svatba */}
+      <article className={styles.article}>
+        <section className={styles.section}>
+          <h3>Svatební hostiny na přání.</h3>
+          <p>Pořádáme svatební hostiny dle předchozí domluvy.</p>
+          <div>
+            <img src={svatba} alt="svatební obřad" />
+          </div>
 
-        <section className={styles.section}></section>
+          <div>
+            <img src={svatba1} alt="svatební pochod" />
+          </div>
 
-        <section className={styles.section}></section>
+          <div>
+            <img src={svatba2} alt="svatební raut" />
+          </div>
 
-        <section className={styles.section}></section>
+          <div>
+            <img src={svatba3} alt="svatební příslib" />
+          </div>
+          <div>
+            <img src={svatba4} alt="svatební dort" />
+          </div>
+        </section>
+      </article>
+      {/* Soukromé akce */}
+      <article className={styles.article}>
+        <section className={styles.section}>
+          <h3>Pořádáme soukromé i firemní akce</h3>
+
+          <div>
+            <img src={akce1} alt="Pivo a hamburger" />
+          </div>
+
+          <div>
+            <img src={akce2} alt="Posezení" />
+          </div>
+
+          <div>
+            <img src={akce3} alt="Posezení při akci" />
+          </div>
+
+          <div>
+            <img src={akce4} alt="Oběd" />
+          </div>
+        </section>
       </article>
     </div>
   );
