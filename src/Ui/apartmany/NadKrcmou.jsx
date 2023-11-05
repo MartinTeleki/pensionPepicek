@@ -1,4 +1,4 @@
-import styles from "./NadKolarnou.module.css";
+import styles from "./NadKrcmou.module.css";
 import pokojnadkolarnou1 from "../../img/pokojnadkolarnou1.webp";
 import pokojnadkolarnou2 from "../../img/pokojnadkolarnou2.webp";
 import pokojnadkolarnou3 from "../../img/pokojnadkolarnou3.webp";
@@ -21,6 +21,36 @@ function nadKrcmou() {
             mohou plně využívat velikou zahradu s pískovištěm, dětským hřištěm a
             nadzemním bazénem.
           </p>
+
+          <div className={styles.price}>
+            <p>
+              Cena za noc/1 osoba{" "}
+              <span className={styles.singlePrice}>650 Kč.</span>{" "}
+            </p>
+            <br />
+            <p>
+              Plně obsazený apartmán{" "}
+              <span className={styles.fullPrice}>2200 Kč.</span>
+            </p>
+            <br />
+            <p>
+              Zapůjčení dětské postýlky/1 noc{" "}
+              <span className={styles.fullPrice}>50 Kč.</span>
+            </p>
+            <br />
+            <p>
+              Vaše domácí miláčky po domluvě rádi ubytujeme /1 noc{" "}
+              <span className={styles.fullPrice}>100 Kč.</span>
+            </p>
+            <br />
+            <p>
+              Pronájem sálu restaurace{" "}
+              <span>
+                {" "}
+                <b>dle dohody.</b>
+              </span>
+            </p>
+          </div>
         </div>
       </section>
 

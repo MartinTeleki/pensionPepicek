@@ -30,6 +30,8 @@ function Ubytovani() {
         <div>
           <img src={pokojjezero} alt="pokoj Jezero" />
         </div>
+
+        
       </ul>
     </div>
   );

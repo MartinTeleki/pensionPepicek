@@ -1,40 +1,63 @@
 .layout {
-    /* background: rgb(241, 239, 239); */
-    background: rgb(222, 222, 222);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: black;
-  }
+  /* background: rgb(241, 239, 239); */
+  background: rgb(222, 222, 222);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.apartmanSection {
+  margin: 40px 20px;
+}
+
+.apartmanSection h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.apartmanSection p {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.apartmanSection img {
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
+  border: 2px solid white;
+}
+
+/* Price of apartmans */
+
+.price {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 30px;
+}
+
+.price p {
+  margin: 5px 0;
+}
+
+.price .singlePrice {
+  font-weight: bold;
+  color: #ff5733;
+  margin: 10px 0;
+}
+
+.price .fullPrice {
+  font-weight: bold;
+  color: #2e8b57;
   
-  .apartmanSection {
-    margin: 20px;
-  }
-  
-  .apartmanSection h2 {
-    text-align: center;
-    text-transform: uppercase;
-  }
-  
-  .apartmanSection p {
-    margin-top: 10px;
-    text-align: justify;
-  }
-  
+}
+
+@media (max-width: 500px) {
   .apartmanSection img {
-    width: 400px;
-    height: auto;
-    margin-top: 20px;
-    border: 2px solid white;
+    width: 300px;
   }
-  
-  @media (max-width: 500px) {
-    .apartmanSection img {
-      width: 300px;
-    }
-  
-    .apartmanSection {
-      max-width: 300px;
-    }
+
+  .apartmanSection {
+    max-width: 300px;
   }
-  
+}
