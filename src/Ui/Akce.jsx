@@ -3,6 +3,7 @@ import styles from "./Akce.module.css";
 
 import zabijacka1 from "../img/zabijacka1.webp";
 import zabijacka2 from "../img/zabijacka2.webp";
+import zabijacka3 from "../img/zabijacka3.webp";
 
 import silvestr2023 from "../img/silvestr2023.webp";
 import pension17 from "../img/pension17.webp";
