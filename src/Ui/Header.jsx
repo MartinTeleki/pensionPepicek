@@ -8,7 +8,6 @@ function Header() {
   const [isOpen, setOpen] = useState(false);
   const location = useLocation();
   const isActive = location.pathname;
-  console.log(isActive);
 
   const handleChangePage = () => {
     setOpen(false);

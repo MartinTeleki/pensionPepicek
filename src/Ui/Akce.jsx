@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import styles from "./Akce.module.css";
 
 import zabijacka1 from "../img/zabijacka1.webp";
@@ -69,7 +68,11 @@ function Akce() {
         <section className={styles.section}>
           <h3>SILVESTR 2023 oslavte s námi s živou hudbou.</h3>
           <div>
-            <img src={silvestr2023} alt="silvestrovská oslava" />
+            <img
+              className="pes"
+              src={silvestr2023}
+              alt="silvestrovská oslava"
+            />
           </div>
 
           <div>
