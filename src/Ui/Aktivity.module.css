@@ -1,66 +1,68 @@
 .layout {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: rgb(222, 222, 222);
-    /* margin: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(222, 222, 222);
+  /* margin: 40px 0px;
       background: url("../img/pension3.jpg") center;
       background-size: cover; */
-  }
-  
-  .article {
-    margin-bottom: 100px;
-    margin-top: 40px;
-  }
-  
-  .section {
+}
+
+.article {
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.section p {
+  margin: 10px 0;
+  color: black;
+}
+
+.section a {
+  text-decoration: none;
+  color: black;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.section a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.section h3,
+.section h2 {
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.section img {
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
+  border: 2px solid white;
+}
+
+.blurImage {
+  filter: blur(10px);
+  transition: filter 0.3s ease;
+}
+
+@media (max-width: 500px) {
+  .layout {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
+    margin: 0;
   }
-  
-  .section p {
-    margin: 10px 0;
-    color: black;
+
+  .apartmanLinks img {
+    width: 300px;
   }
-  
-  .section a {
-    text-decoration: none;
-  }
-  
-  .section a:hover {
-    text-decoration: underline;
-    color: black;
-  }
-  
-  .section h3,
-  .section h2 {
-    text-transform: uppercase;
-    margin-top: 20px;
-  }
-  
-  .section img {
-    width: 400px;
-    height: auto;
-    margin-top: 20px;
-    border: 2px solid white;
-  }
-  
-  .blurImage {
-    filter: blur(10px);
-    transition: filter 0.3s ease;
-  }
-  
-  @media (max-width: 500px) {
-    .layout {
-      display: flex;
-      margin: 0;
-    }
-  
-    .apartmanLinks img {
-      width: 300px;
-    }
-  }
-  
+}
