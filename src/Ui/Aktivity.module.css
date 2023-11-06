@@ -60,9 +60,22 @@
   .layout {
     display: flex;
     margin: 0;
+    font-size: 14px;
   }
 
-  .apartmanLinks img {
+  .section img {
     width: 300px;
+  }
+}
+
+@media (max-width: 281px) {
+  .layout {
+    display: flex;
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .section img {
+    width: 200px;
   }
 }

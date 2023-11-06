@@ -9,9 +9,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-
   text-decoration: none;
-
   /* background-color: var(--background-color-black); */
   background: linear-gradient(to left, #76411b, #a2550d);
   color: var(--color-white);

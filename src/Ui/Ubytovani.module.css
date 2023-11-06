@@ -7,7 +7,6 @@
 }
 
 .apartmanLinks {
-  display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: column;
@@ -44,7 +43,9 @@
 
 @media (max-width: 500px) {
   .layout {
-    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
   }
 
   .apartmanLinks img {
@@ -52,5 +53,18 @@
   }
   .apartmanLinks a {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 350px) {
+  .layout {
+    display: flex;
+  }
+
+  .apartmanLinks img {
+    width: 200px;
+  }
+  .apartmanLinks a {
+    font-size: 12px;
   }
 }
