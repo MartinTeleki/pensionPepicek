@@ -41,6 +41,12 @@
   }
 }
 
+@media (min-height: 1000px) {
+  .container {
+    margin-bottom: 330px;
+  }
+}
+
 @media (max-width: 600px) {
   .container {
     display: flex;
