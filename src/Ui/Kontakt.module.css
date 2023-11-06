@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(222, 222, 222);
+  margin: 40px 0px 160px 0;
+}
+
+.leftColumn {
+  width: 50%;
+  margin: 0 20px;
+}
+
+.rightColumn {
+  width: 50%;
+  margin: 0 20px;
+}
+
+.info {
+  font-size: 16px;
+  margin: 20px 0;
+  display: flex;
+}
+
+.map {
+  width: 100%;
+  height: 300px;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+}

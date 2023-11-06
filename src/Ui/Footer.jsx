@@ -16,13 +16,19 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <>
-        <div className={styles.iconsContainer} onClick={handleCallClick}>
-          <span className="material-symbols-outlined">phone</span> +420777138131
+        <div className={styles.iconsContainer}>
+          <span className="material-symbols-outlined">phone</span>
+          <span className={styles.kontakt} onClick={handleCallClick}>
+            {" "}
+            +420777138131
+          </span>
         </div>{" "}
         <br />
-        <div className={styles.iconsContainer} onClick={handleEmailClick}>
+        <div className={styles.iconsContainer}>
           <span className="material-symbols-outlined">mail</span>{" "}
-          recepce@penzionupepicka.cz
+          <span className={styles.kontakt} onClick={handleCallClick}>
+            recepce@penzionupepicka.cz{" "}
+          </span>
         </div>
         <br />
         <div>
