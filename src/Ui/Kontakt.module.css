@@ -1,13 +1,17 @@
 .container {
   display: flex;
-  justify-content: space-between;
-  background: rgb(222, 222, 222);
-  margin: 40px 0px 70% 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px 120px 20px;
 }
 
 .leftColumn {
-  width: 50%;
+  width: 100%;
   margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .rightColumn {
@@ -31,9 +35,15 @@
   color: black;
 }
 
+@media (min-width: 1400px) {
+  .container {
+    margin-bottom: 280px;
+  }
+}
+
 @media (max-width: 600px) {
   .container {
-    display: block;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -61,7 +71,7 @@
 
 @media (max-width: 281px) {
   .container {
-    display: block;
+    display: flex;
   }
   .info {
     display: flex;
