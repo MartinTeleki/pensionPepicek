@@ -1,12 +1,10 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  
-
+  font-family: "Roboto", sans-serif;
 }
 
-.app{
+.app {
   background: rgb(222, 222, 222);
 }
 
@@ -17,5 +15,17 @@
 .material-symbols-outlined {
   margin-right: 5px;
   cursor: pointer;
-  
+}
+
+@media (max-width: 500px) {
+  .material-symbols-outlined {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 280px) {
+  .material-symbols-outlined {
+    font-size: 12px;
+  }
 }

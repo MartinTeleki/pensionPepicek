@@ -12,7 +12,7 @@
 
 .rightColumn {
   width: 50%;
-  margin: 0 20px;
+  margin: 20px 20px;
 }
 
 .info {
@@ -29,4 +29,46 @@
 .container a {
   text-decoration: none;
   color: black;
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+  }
+
+  .leftColumn {
+    width: 100%;
+    margin: 0 20px;
+  }
+
+  .rightColumn {
+    width: 100%;
+    margin: 20px 20px;
+  }
+  .info {
+    font-size: 14px;
+    margin: 20px 0;
+    display: flex;
+  }
+  .map {
+    width: 300px;
+  }
+}
+
+@media (max-width: 280px) {
+  .info {
+    font-size: 12px;
+    margin: 20px 0;
+    display: flex;
+  }
+  .leftColumn {
+    width: 100%;
+    margin: 0 20px;
+    font-size: 12px;
+  }
+  .map {
+    width: 200px;
+  }
 }
