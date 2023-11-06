@@ -22,6 +22,7 @@ import GalerieKrcma from "./Ui/galerieApartman/GalerieKrcma";
 import GalerieOkoli from "./Ui/galerieApartman/galerieOkoli";
 import GaleriePohoda from "./Ui/galerieApartman/GaleriePohoda";
 import GalerieSlunce from "./Ui/galerieApartman/GalerieSlunce";
+import Error from "./Ui/Error";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
+          <Route path="*" element={<Error />} />
           <Route index element={<Home />} />
           <Route path="/domu" element={<Home />} />
           <Route path="/akce" element={<Akce />} />
