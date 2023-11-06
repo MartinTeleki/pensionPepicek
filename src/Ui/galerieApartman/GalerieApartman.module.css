@@ -1,0 +1,42 @@
+.layout {
+    /* background: rgb(241, 239, 239); */
+    background: rgb(222, 222, 222);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+  }
+  
+  .apartmanSection {
+    margin: 40px 20px;
+  }
+  
+  .apartmanSection h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .apartmanSection p {
+    margin-top: 10px;
+    text-align: justify;
+  }
+  
+  .apartmanSection img {
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid white;
+  }
+  
+
+  
+  @media (max-width: 500px) {
+    .apartmanSection img {
+      width: 300px;
+    }
+  
+    .apartmanSection {
+      max-width: 300px;
+    }
+  }
+  

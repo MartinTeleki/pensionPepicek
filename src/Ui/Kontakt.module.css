@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   background: rgb(222, 222, 222);
-  margin: 40px 0px 160px 0;
+  margin: 40px 0px 70% 0;
 }
 
 .leftColumn {
@@ -33,9 +33,11 @@
 
 @media (max-width: 600px) {
   .container {
-    display: flex;
+    display: block;
     flex-direction: column;
-    margin: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 120px 20px;
   }
 
   .leftColumn {
@@ -44,7 +46,7 @@
   }
 
   .rightColumn {
-    width: 100%;
+    width: 302px;
     margin: 20px 20px;
   }
   .info {
@@ -57,18 +59,25 @@
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 281px) {
+  .container {
+    display: block;
+  }
   .info {
+    display: flex;
     font-size: 12px;
     margin: 20px 0;
-    display: flex;
   }
   .leftColumn {
     width: 100%;
     margin: 0 20px;
     font-size: 12px;
   }
+  .rightColumn {
+    width: 100%;
+    margin: 20px 0px;
+  }
   .map {
-    width: 200px;
+    width: 240px;
   }
 }

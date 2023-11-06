@@ -42,3 +42,15 @@
   cursor: pointer;
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 281px) {
+  .footer {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,56 @@
+.layout {
+  background: rgb(222, 222, 222);
+  /* margin: 40px 0px;
+  background: url("../img/pension3.jpg") center;
+  background-size: cover; */
+  margin: 40px 0;
+}
+
+.apartmanLinks {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.apartmanLinks a {
+  text-decoration: none;
+  margin: 10px auto;
+  color: black;
+  text-transform: uppercase;
+  margin: 20px;
+  transition: color 0.1s ease-in-out, transform 0.1s ease-in-out,
+    opacity 0.1s ease-in-out;
+}
+
+.apartmanLinks a:hover {
+  transform: scale(1.04);
+  text-decoration: underline;
+}
+
+.apartmanLinks a:focus {
+  transform: scale(0.96);
+}
+
+.apartmanLinks a:active {
+  transform: scale(0.96);
+}
+.apartmanLinks img {
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
+  border: 2px solid white;
+}
+
+@media (max-width: 500px) {
+  .layout {
+    margin: 0;
+  }
+
+  .apartmanLinks img {
+    width: 300px;
+  }
+  .apartmanLinks a {
+    font-size: 14px;
+  }
+}

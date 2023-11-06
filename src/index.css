@@ -6,6 +6,7 @@
 
 .app {
   background: rgb(222, 222, 222);
+  
 }
 
 .material-symbols-outlined {
@@ -24,8 +25,9 @@
 }
 
 
-@media (max-width: 280px) {
+@media (max-width: 281px) {
   .material-symbols-outlined {
     font-size: 12px;
+    
   }
 }
