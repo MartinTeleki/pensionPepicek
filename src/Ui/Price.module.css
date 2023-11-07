@@ -10,7 +10,7 @@
 
 .price {
   list-style-type: none;
-  border: 1px solid #eee;
+  border: 2px solid #fff;
   margin: 0;
   padding: 0;
   -webkit-transition: 0.3s;
@@ -50,7 +50,6 @@
 
 @media only screen and (max-width: 600px) {
   .columns {
-    
     width: 100%;
     float: none;
   }

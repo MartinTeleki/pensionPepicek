@@ -1,5 +1,6 @@
 import styles from "./Price.module.css";
 import { Link } from "react-router-dom";
+import ButtonInfo from "./galerieApartman/ButtonInfo";
 
 function Price() {
   return (
@@ -16,9 +17,9 @@ function Price() {
           </li>
 
           <li className={styles.grey}>
-            <a href="#" className={styles.button}>
+            <ButtonInfo to="/ubytovani/slunce" className={styles.button}>
               Více info
-            </a>
+            </ButtonInfo>
           </li>
         </ul>
       </div>
@@ -35,9 +36,9 @@ function Price() {
           </li>
 
           <li className={styles.grey}>
-            <a href="#" className={styles.button}>
+            <ButtonInfo to="/ubytovani/jezero" className={styles.button}>
               Více info
-            </a>
+            </ButtonInfo>
           </li>
         </ul>
       </div>
@@ -53,9 +54,9 @@ function Price() {
           </li>
 
           <li className={styles.grey}>
-            <a href="#" className={styles.button}>
+            <ButtonInfo to="/ubytovani/pohoda" className={styles.button}>
               Více info
-            </a>
+            </ButtonInfo>
           </li>
         </ul>
       </div>
@@ -72,9 +73,9 @@ function Price() {
           </li>
 
           <li className={styles.grey}>
-            <a href="#" className={styles.button}>
+            <ButtonInfo to="/ubytovani/nadkolarnou" className={styles.button}>
               Více info
-            </a>
+            </ButtonInfo>
           </li>
         </ul>
       </div>
@@ -90,9 +91,9 @@ function Price() {
           </li>
 
           <li className={styles.grey}>
-            <a href="#" className={styles.button}>
+            <ButtonInfo to="/ubytovani/nadkrcmou" className={styles.button}>
               Více info
-            </a>
+            </ButtonInfo>
           </li>
         </ul>
       </div>
@@ -105,9 +106,9 @@ function Price() {
           <li className={styles.grey}>Soukromé, rodinné a firemní akce.</li>
 
           <li className={styles.grey}>
-            <a href="#" className={styles.button}>
+            <ButtonInfo to="/kontakt" className={styles.button}>
               Více info
-            </a>
+            </ButtonInfo>
           </li>
         </ul>
       </div>
