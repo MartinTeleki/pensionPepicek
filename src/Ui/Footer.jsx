@@ -14,8 +14,9 @@ export default function Footer() {
   };
 
   return (
+
+        <div className={styles.contentContainer}>
     <div className={styles.footer}>
-      <>
         <div className={styles.iconsContainer}>
           <span className="material-symbols-outlined">phone</span>
           <span className={styles.kontakt} onClick={handleCallClick}>
@@ -46,7 +47,7 @@ export default function Footer() {
           <br />
           <span>martinteleki@seznam.cz</span>
         </div>
-      </>
+      </div>
     </div>
   );
 }

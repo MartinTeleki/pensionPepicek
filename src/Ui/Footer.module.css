@@ -5,13 +5,16 @@
   --color-white: #fff;
 }
 
+.contentContainer {
+  position: relative;
+  min-height: 20vh;
+}
+
 .footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-decoration: none;
-  /* background-color: var(--background-color-black); */
-  /* background: linear-gradient(to left, #76411b, #a2550d); */
   background: rgb(46, 47, 46);
   color: var(--color-white);
   padding: 1.25rem 0;
@@ -19,6 +22,8 @@
   width: 100%;
   height: 200px;
   opacity: 1;
+  position: absolute;
+  bottom: 0;
 }
 
 .footerLink {
@@ -51,5 +56,6 @@
 @media (max-width: 281px) {
   .footer {
     font-size: 12px;
+    
   }
 }

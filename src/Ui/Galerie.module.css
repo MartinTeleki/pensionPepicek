@@ -19,7 +19,7 @@
   margin: 10px auto;
   color: black;
   text-transform: uppercase;
-  margin: 20px;
+  margin: 60px;
   transition: color 0.1s ease-in-out, transform 0.1s ease-in-out,
     opacity 0.1s ease-in-out;
 }
@@ -43,11 +43,21 @@
   border: 2px solid white;
 }
 
-
-
 @media (max-width: 500px) {
   .layout {
     margin: 0;
+  }
+
+  .apartmanLinks img {
+    width: 300px;
+  }
+  .apartmanLinks a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 281px) {
+  .layout {
+    margin: 60px 0;
   }
 
   .apartmanLinks img {

@@ -1,6 +1,6 @@
 .layout {
-  /* background: rgb(241, 239, 239); */
-  background: rgb(222, 222, 222);
+  /* background: rgb(241, 239, 239);  */
+  /* background: rgb(70, 64, 64); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,6 +16,7 @@
   flex-direction: column;
   /* background: linear-gradient(to bottom right, #76411b, #a2550d); */
   background: rgb(7, 57, 7);
+
   padding: 20px;
   width: 800px;
   height: auto;

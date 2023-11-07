@@ -6,12 +6,15 @@
 
 .app {
   background: rgb(222, 222, 222);
+  /* background: rgb(70, 64, 64); */
   display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: column;
  
 }
+
+
 
 img{
   border-radius: 8px;
