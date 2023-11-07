@@ -12,6 +12,7 @@
   width: 404px;
   background: linear-gradient(to left, #76411b, #a2550d);
   border: 2px solid white;
+  border-radius: 8px;
 }
 
 .apartmanLinks {
@@ -52,6 +53,8 @@
 .priceContainer {
   margin: 120px 0;
 }
+
+
 
 @media (max-width: 500px) {
   .layout {

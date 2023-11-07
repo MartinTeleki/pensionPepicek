@@ -13,6 +13,7 @@
 
 .apartmanSection {
   margin: 40px 20px;
+
 }
 
 .apartmanSection h2 {
@@ -30,10 +31,24 @@
   height: auto;
   margin-top: 20px;
   border: 2px solid white;
+  border-radius: 8px;
+  
 }
 
 .button {
   margin: 80px;
+  transition: 0.2s ease-in;
+  border-radius: 6px;
+}
+
+.button:hover {
+  transform: scale(1.04);
+  opacity: 0.8;
+}
+
+.button:active {
+  transform: scale(0.96);
+  opacity: 0.8;
 }
 
 .price {

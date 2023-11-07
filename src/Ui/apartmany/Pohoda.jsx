@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import ButtonInfo from "../galerieApartman/ButtonInfo";
 
 function pohoda() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className={styles.layout}>
       <section className={styles.apartmanSection}>
@@ -48,9 +48,9 @@ function pohoda() {
           <img src={pension4} alt="Apartmán nad kolárnou - kuchyň" />
         </div>
       </section>
-        <div className={styles.button}>
-          <ButtonInfo onClick={() => navigate(-1)}>Zpět na ubytování</ButtonInfo>
-        </div>
+      <div className={styles.button}>
+        <ButtonInfo onClick={() => navigate(-1)}>Zpět na ubytování</ButtonInfo>
+      </div>
     </div>
   );
 }

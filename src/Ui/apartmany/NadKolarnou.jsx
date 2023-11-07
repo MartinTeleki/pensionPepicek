@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import ButtonInfo from "../galerieApartman/ButtonInfo";
 
 function nadKolarnou() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className={styles.layout}>
       <section className={styles.apartmanSection}>
@@ -29,7 +29,7 @@ function nadKolarnou() {
               <span className={styles.fullPrice}>1650 Kč</span>
             </p>
             <br />
-          <InfoPrice/>
+            <InfoPrice />
           </div>
         </div>
       </section>
@@ -49,9 +49,9 @@ function nadKolarnou() {
           />
         </div>
       </section>
-        <div className={styles.button}>
-          <ButtonInfo onClick={() => navigate(-1)}>Zpět na ubytování</ButtonInfo>
-        </div>
+      <div className={styles.button}>
+        <ButtonInfo onClick={() => navigate(-1)}>Zpět na ubytování</ButtonInfo>
+      </div>
     </div>
   );
 }

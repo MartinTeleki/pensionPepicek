@@ -9,7 +9,7 @@ import ButtonInfo from "../galerieApartman/ButtonInfo";
 import { useNavigate } from "react-router-dom";
 
 function nadKrcmou() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className={styles.layout}>
       <section className={styles.apartmanSection}>
@@ -72,12 +72,9 @@ function nadKrcmou() {
         </div>
       </section>
       <div className={styles.button}>
-          <ButtonInfo onClick={() => navigate(-1)}>Zpět na ubytování</ButtonInfo>
-        </div>
+        <ButtonInfo onClick={() => navigate(-1)}>Zpět na ubytování</ButtonInfo>
+      </div>
     </div>
-
-    
-    
   );
 }
 
