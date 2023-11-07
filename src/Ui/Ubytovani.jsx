@@ -10,30 +10,49 @@ import pokojjezero from "../img/pokojjezero.webp";
 function Ubytovani() {
   return (
     <>
-    <div className={styles.layout}>
-      <ul className={styles.apartmanLinks}>
-        <Link to="/ubytovani/nadkrcmou">Apartmány Nad Krčmou</Link>
-        <div>
-          <img src={pokojnadkolarnou} alt="pokoj Nad Krčmou" />
-        </div>
-        <Link to="/ubytovani/nadkolarnou">Apartmán Nad Kolárnou</Link>
-        <div>
-          <img src={pokojnadkrcmou} alt="pokoj Nad Kolárnou" />
-        </div>
-        <Link to="/ubytovani/slunce">Apartmán Slunce</Link>
-        <div>
-          <img src={pokojslunce} alt="pokoj Slunce" />
-        </div>
-        <Link to="/ubytovani/pohoda">Apartmán Pohoda</Link>
-        <div>
-          <img src={pokojpohoda} alt="pokoj Pohoda" />
-        </div>
-        <Link to="/ubytovani/jezero">Apartmán Jezero</Link>
-        <div>
-          <img src={pokojjezero} alt="pokoj Jezero" />
-        </div>
-      </ul>
-    </div>
+      <div className={styles.layout}>
+        <ul className={styles.apartmanLinks}>
+          <div className={styles.apartmanContainer}>
+            <div className={styles.linkContainer}>
+              <Link to="/ubytovani/nadkrcmou">Apartmány Nad Krčmou</Link>
+            </div>
+
+            <img src={pokojnadkolarnou} alt="pokoj Nad Krčmou" />
+          </div>
+          <div className={styles.apartmanContainer}>
+            <div className={styles.linkContainer}>
+              <Link to="/ubytovani/nadkolarnou">Apartmán Nad Kolárnou</Link>
+            </div>
+            <div>
+              <img src={pokojnadkrcmou} alt="pokoj Nad Kolárnou" />
+            </div>
+          </div>
+          <div className={styles.apartmanContainer}>
+            <div className={styles.linkContainer}>
+              <Link to="/ubytovani/slunce">Apartmán Slunce</Link>
+            </div>
+            <div>
+              <img src={pokojslunce} alt="pokoj Slunce" />
+            </div>
+          </div>
+          <div className={styles.apartmanContainer}>
+            <div className={styles.linkContainer}>
+              <Link to="/ubytovani/pohoda">Apartmán Pohoda</Link>
+            </div>
+            <div>
+              <img src={pokojpohoda} alt="pokoj Pohoda" />
+            </div>
+          </div>
+          <div className={styles.apartmanContainer}>
+            <div className={styles.linkContainer}>
+              <Link to="/ubytovani/jezero">Apartmán Jezero</Link>
+            </div>
+            <div>
+              <img src={pokojjezero} alt="pokoj Jezero" />
+            </div>
+          </div>
+        </ul>
+      </div>
       <div className={styles.priceContainer}>
         <Price />
       </div>

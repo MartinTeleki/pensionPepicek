@@ -1,21 +1,33 @@
 .layout {
   background: rgb(222, 222, 222);
-  margin-top: 80px;
   /* margin: 40px 0px;
   background: url("../img/pension3.jpg") center;
   background-size: cover; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.apartmanContainer {
+  margin-top: 40px;
+
+  height: 330px;
+  width: 404px;
+  background: linear-gradient(to left, #76411b, #a2550d);
+  border: 2px solid white;
 }
 
 .apartmanLinks {
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
+}
+
+.linkContainer {
+  padding: 30px 0;
 }
 
 .apartmanLinks a {
   text-decoration: none;
-  margin: 10px auto;
-  color: black;
+  color: white;
   text-transform: uppercase;
   transition: color 0.1s ease-in-out, transform 0.1s ease-in-out,
     opacity 0.1s ease-in-out;
@@ -36,8 +48,6 @@
 .apartmanLinks img {
   width: 400px;
   height: auto;
-  margin: 40px 0;
-  border: 2px solid white;
 }
 
 .priceContainer {
@@ -47,7 +57,6 @@
 @media (max-width: 500px) {
   .layout {
     display: flex;
-
     margin-top: 40px;
   }
 
