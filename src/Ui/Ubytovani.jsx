@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Ubytovani.module.css";
+import Price from "./Price";
 import pokojnadkolarnou from "../img/pokojnadkolarnou.webp";
 import pokojnadkrcmou from "../img/pokojnadkrcmou.webp";
 import pokojslunce from "../img/pokojslunce.webp";
@@ -8,6 +9,7 @@ import pokojjezero from "../img/pokojjezero.webp";
 
 function Ubytovani() {
   return (
+    <>
     <div className={styles.layout}>
       <ul className={styles.apartmanLinks}>
         <Link to="/ubytovani/nadkrcmou">Apartmány Nad Krčmou</Link>
@@ -30,10 +32,12 @@ function Ubytovani() {
         <div>
           <img src={pokojjezero} alt="pokoj Jezero" />
         </div>
-
-        
       </ul>
     </div>
+      <div className={styles.priceContainer}>
+        <Price />
+      </div>
+    </>
   );
 }
 
