@@ -7,7 +7,10 @@ import okoli5 from "../../img/okoli5.webp";
 import okoli6 from "../../img/okoli6.webp";
 import okoli7 from "../../img/okoli7.webp";
 import okoli8 from "../../img/okoli8.webp";
+import ButtonInfo from "./ButtonInfo";
+import { useNavigate } from "react-router-dom";
 function GalerieOkoli() {
+  const navigate = useNavigate();
   return (
     <div className={styles.layout}>
       <section className={styles.apartmanSection}>
@@ -34,6 +37,9 @@ function GalerieOkoli() {
         </div>
         <div>
           <img src={okoli8} alt="rybník" />
+        </div>
+        <div className={styles.button}>
+          <ButtonInfo onClick={() => navigate(-1)}>Zpět do galerie</ButtonInfo>
         </div>
       </section>
     </div>

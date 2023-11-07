@@ -1,9 +1,12 @@
-import styles from "./NadKolarnou.module.css";
+import styles from "./Apartmany.module.css";
 import pokojnadkrcmou from "../../img/pokojnadkrcmou.webp";
 import pension7 from "../../img/pension7.webp";
 import InfoPrice from "../InfoPrice";
+import { useNavigate } from "react-router-dom";
+import ButtonInfo from "../galerieApartman/ButtonInfo";
 
 function nadKolarnou() {
+  const navigate = useNavigate()
   return (
     <div className={styles.layout}>
       <section className={styles.apartmanSection}>
@@ -46,6 +49,9 @@ function nadKolarnou() {
           />
         </div>
       </section>
+        <div className={styles.button}>
+          <ButtonInfo onClick={() => navigate(-1)}>Zpět na ubytování</ButtonInfo>
+        </div>
     </div>
   );
 }

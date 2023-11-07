@@ -7,7 +7,6 @@ import { Sling as Hamburger } from "hamburger-react";
 function Header() {
   const [isOpen, setOpen] = useState(false);
   const location = useLocation();
-  const isActive = location.pathname;
 
   const handleChangePage = () => {
     setOpen(false);

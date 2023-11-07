@@ -1,9 +1,12 @@
-import styles from "./pohoda.module.css";
+import styles from "./Apartmany.module.css";
 import pokojpohoda1 from "../../img/pokojpohoda1.webp";
 import pension4 from "../../img/pension4.webp";
 import InfoPrice from "../InfoPrice";
+import { useNavigate } from "react-router-dom";
+import ButtonInfo from "../galerieApartman/ButtonInfo";
 
 function pohoda() {
+  const navigate = useNavigate()
   return (
     <div className={styles.layout}>
       <section className={styles.apartmanSection}>
@@ -45,6 +48,9 @@ function pohoda() {
           <img src={pension4} alt="Apartmán nad kolárnou - kuchyň" />
         </div>
       </section>
+        <div className={styles.button}>
+          <ButtonInfo onClick={() => navigate(-1)}>Zpět na ubytování</ButtonInfo>
+        </div>
     </div>
   );
 }

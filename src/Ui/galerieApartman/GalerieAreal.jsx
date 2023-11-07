@@ -13,8 +13,11 @@ import apartman11 from "../../img/apartman11.webp";
 import apartman12 from "../../img/apartman12.webp";
 import apartman13 from "../../img/apartman13.webp";
 import apartman14 from "../../img/apartman14.webp";
+import ButtonInfo from "./ButtonInfo";
+import { useNavigate } from "react-router-dom";
 
 function GalerieAreal() {
+  const navigate = useNavigate();
   return (
     <div className={styles.layout}>
       <section className={styles.apartmanSection}>
@@ -56,6 +59,9 @@ function GalerieAreal() {
         </div>
         <div>
           <img src={apartman13} alt="penzion U Pepíčka" />
+        </div>
+        <div className={styles.button}>
+          <ButtonInfo onClick={() => navigate(-1)}>Zpět do galerie</ButtonInfo>
         </div>
       </section>
     </div>

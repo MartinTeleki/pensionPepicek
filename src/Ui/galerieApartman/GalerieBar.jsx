@@ -7,8 +7,11 @@ import bar5 from "../../img/bar5.webp";
 import bar6 from "../../img/bar6.webp";
 import bar7 from "../../img/bar7.webp";
 import bar8 from "../../img/bar8.webp";
+import ButtonInfo from "./ButtonInfo";
+import { useNavigate } from "react-router-dom";
 
 function GalerieBar() {
+  const navigate = useNavigate();
   return (
     <div className={styles.layout}>
       <section className={styles.apartmanSection}>
@@ -35,6 +38,9 @@ function GalerieBar() {
         </div>
         <div>
           <img src={bar8} alt="oslava" />
+        </div>
+        <div className={styles.button}>
+          <ButtonInfo onClick={() => navigate(-1)}>Zpět do galerie</ButtonInfo>
         </div>
       </section>
     </div>

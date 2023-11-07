@@ -6,8 +6,12 @@ import slunce4 from "../../img/slunce4.webp";
 import slunce5 from "../../img/slunce5.webp";
 import slunce6 from "../../img/slunce6.webp";
 import slunce7 from "../../img/slunce7.webp";
+import ButtonInfo from "./ButtonInfo";
+import { useNavigate } from "react-router-dom";
 
 function GalerieSlunce() {
+  const navigate = useNavigate();
+
   return (
     <div className={styles.layout}>
       <section className={styles.apartmanSection}>
@@ -31,6 +35,9 @@ function GalerieSlunce() {
         </div>
         <div>
           <img src={slunce7} alt="kuchyně" />
+        </div>
+        <div className={styles.button}>
+          <ButtonInfo onClick={() => navigate(-1)}>Zpět do galerie</ButtonInfo>
         </div>
       </section>
     </div>

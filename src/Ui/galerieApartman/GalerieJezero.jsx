@@ -6,8 +6,11 @@ import jezero4 from "../../img/jezero4.webp";
 import jezero5 from "../../img/jezero5.webp";
 import jezero6 from "../../img/jezero6.webp";
 import jezero7 from "../../img/jezero7.webp";
+import ButtonInfo from "./ButtonInfo";
+import { useNavigate } from "react-router-dom";
 
 function GalerieJezero() {
+  const navigate = useNavigate();
   return (
     <div className={styles.layout}>
       <section className={styles.apartmanSection}>
@@ -31,6 +34,9 @@ function GalerieJezero() {
         </div>
         <div>
           <img src={jezero1} alt="sprchový kout" style={{ height: "400px" }} />
+        </div>
+        <div className={styles.button}>
+          <ButtonInfo onClick={() => navigate(-1)}>Zpět do galerie</ButtonInfo>
         </div>
       </section>
     </div>

@@ -5,6 +5,10 @@
   flex-direction: column;
   align-items: center;
   color: black;
+  margin-top: 120px;
+}
+
+.paragraphContainer {
 }
 
 .apartmanSection {
@@ -28,7 +32,9 @@
   border: 2px solid white;
 }
 
-/* Price of apartmans */
+.button {
+  margin: 80px;
+}
 
 .price {
   text-align: center;
@@ -49,12 +55,21 @@
 .price .fullPrice {
   font-weight: bold;
   color: #2e8b57;
-  
 }
 
 @media (max-width: 500px) {
   .apartmanSection img {
     width: 300px;
+  }
+
+  .apartmanSection {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 340px) {
+  .apartmanSection img {
+    width: 200px;
   }
 
   .apartmanSection {

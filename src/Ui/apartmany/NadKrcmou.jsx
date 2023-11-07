@@ -1,12 +1,15 @@
-import styles from "./NadKrcmou.module.css";
+import styles from "./Apartmany.module.css";
 import pokojnadkolarnou1 from "../../img/pokojnadkolarnou1.webp";
 import pokojnadkolarnou2 from "../../img/pokojnadkolarnou2.webp";
 import pokojnadkolarnou3 from "../../img/pokojnadkolarnou3.webp";
 import pokojnadkolarnou4 from "../../img/pokojnadkolarnou4.webp";
 import pokojnadkolarnou5 from "../../img/pokojnadkolarnou5.webp";
 import InfoPrice from "../InfoPrice";
+import ButtonInfo from "../galerieApartman/ButtonInfo";
+import { useNavigate } from "react-router-dom";
 
 function nadKrcmou() {
+  const navigate = useNavigate()
   return (
     <div className={styles.layout}>
       <section className={styles.apartmanSection}>
@@ -68,7 +71,13 @@ function nadKrcmou() {
           <img src={pokojnadkolarnou5} alt="Apartmán nad kolárnou -balkón" />
         </div>
       </section>
+      <div className={styles.button}>
+          <ButtonInfo onClick={() => navigate(-1)}>Zpět na ubytování</ButtonInfo>
+        </div>
     </div>
+
+    
+    
   );
 }
 

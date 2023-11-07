@@ -1,8 +1,11 @@
-import styles from "./slunce.module.css";
+import styles from "./Apartmany.module.css";
 import pokojslunce from "../../img/pokojslunce.webp";
 import InfoPrice from "../InfoPrice";
+import { useNavigate } from "react-router-dom";
+import ButtonInfo from "../galerieApartman/ButtonInfo";
 
 function slunce() {
+  const navigate = useNavigate();
   return (
     <div className={styles.layout}>
       <section className={styles.apartmanSection}>
@@ -42,6 +45,9 @@ function slunce() {
           <img src={pokojslunce} alt="Apartmán nad kolárnou - terasa " />
         </div>
       </section>
+      <div className={styles.button}>
+        <ButtonInfo onClick={() => navigate(-1)}>Zpět na ubytování</ButtonInfo>
+      </div>
     </div>
   );
 }

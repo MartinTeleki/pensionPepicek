@@ -3,7 +3,7 @@
   /* margin: 40px 0px;
   background: url("../img/pension3.jpg") center;
   background-size: cover; */
-  margin: 40px 0;
+  margin: 120px 0;
 }
 
 .apartmanLinks {
@@ -11,6 +11,7 @@
   text-align: center;
   justify-content: center;
   flex-direction: column;
+  margin-right: 40px;
 }
 
 .apartmanLinks a {
