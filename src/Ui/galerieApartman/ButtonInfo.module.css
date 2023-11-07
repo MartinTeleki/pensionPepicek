@@ -1,5 +1,5 @@
 .button {
-  background-color: #04aa6d;
+  background: linear-gradient(to left, #76411b, #a2550d);
   border: none;
   color: white;
   padding: 10px 25px;
@@ -19,8 +19,6 @@
   transform: scale(0.96);
   opacity: 0.8;
 }
-
-
 
 @media (max-width: 352px) {
   .button {

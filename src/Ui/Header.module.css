@@ -1,7 +1,8 @@
 .layout {
   position: fixed;
   top: 0;
-  background: linear-gradient(to right, #76411b, #a2550d);
+  /* background: linear-gradient(to right, #76411b, #a2550d); */
+  background: rgb(7, 57, 7);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,6 +71,41 @@ nav a:active {
 /* Default styl pro hamburger menu */
 .hamburgerMenu {
   display: none;
+  margin-right: 20px;
+}
+
+/* @media (max-width: 1140px) {
+  .tree {
+    display: none;
+  }
+}
+
+@media (max-width: 1034px) {
+  .tree2 {
+    display: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .tree3 {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .tree4 {
+    display: none;
+  }
+}
+
+@media (max-width: 570px) {
+
+  .tree {
+    display: block;
+  }
+} */
+
+@media (max-width: 500px) {
 }
 
 @media (min-width: 850px) {

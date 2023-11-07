@@ -43,6 +43,8 @@
   border: 2px solid white;
 }
 
+
+
 @media (max-width: 500px) {
   .layout {
     margin: 0;

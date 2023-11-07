@@ -11,7 +11,8 @@
   flex-direction: column;
   text-decoration: none;
   /* background-color: var(--background-color-black); */
-  background: linear-gradient(to left, #76411b, #a2550d);
+  /* background: linear-gradient(to left, #76411b, #a2550d); */
+  background: rgb(46, 47, 46);
   color: var(--color-white);
   padding: 1.25rem 0;
   text-align: center;

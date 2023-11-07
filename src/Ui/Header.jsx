@@ -3,6 +3,7 @@ import styles from "./Header.module.css";
 import logo from "../img/logo8.webp";
 import { useState } from "react";
 import { Sling as Hamburger } from "hamburger-react";
+import tree from "../img/tree.png";
 
 function Header() {
   const [isOpen, setOpen] = useState(false);
@@ -19,6 +20,8 @@ function Header() {
           <img src={logo} alt="Logo" />
         </NavLink>
       </div>
+     
+
       <nav>
         <ul
           className={`${styles.navItems} ${isOpen ? styles.showMenu : ""} 

@@ -23,7 +23,8 @@
 }
 
 .price .header {
-  background: linear-gradient(to left, #76411b, #a2550d);
+  /* background: linear-gradient(to left, #76411b, #a2550d); */
+  background: rgb(7, 57, 7);
   color: white;
   font-size: 25px;
   padding: 10px;

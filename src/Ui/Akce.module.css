@@ -42,11 +42,13 @@
   margin-top: 20px;
 }
 
+/* background: rgb(46, 47, 46); */
+
 .section img {
   width: 400px;
   height: auto;
   margin-top: 20px;
-  border: 2px solid white;
+  border: 2px solid rgb(46, 47, 46);
 }
 
 .blurImage {
