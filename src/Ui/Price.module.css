@@ -25,6 +25,7 @@
   background: linear-gradient(to left, #76411b, #a2550d);
   color: white;
   font-size: 25px;
+  padding: 10px;
 }
 
 .price li {
