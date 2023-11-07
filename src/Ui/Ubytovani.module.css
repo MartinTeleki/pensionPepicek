@@ -12,13 +12,15 @@
 .apartmanContainer {
   margin-top: 40px;
 
-  height: 330px;
+  height: auto;
   width: 404px;
   background: linear-gradient(to left, #76411b, #a2550d);
   border: 2px solid white;
 }
 
 .apartmanLinks {
+  list-style: none;
+  margin-right: 40px;
 }
 
 .linkContainer {
@@ -48,6 +50,7 @@
 .apartmanLinks img {
   width: 400px;
   height: auto;
+  transform: translateY(4px);
 }
 
 .priceContainer {
@@ -56,12 +59,15 @@
 
 @media (max-width: 500px) {
   .layout {
-    display: flex;
     margin-top: 40px;
   }
 
-  .apartmanLinks img {
+  .apartmanContainer {
     width: 300px;
+  }
+
+  .apartmanLinks img {
+    width: 100%;
   }
   .apartmanLinks a {
     font-size: 14px;
@@ -70,12 +76,14 @@
 
 @media (max-width: 350px) {
   .layout {
-    display: flex;
     margin-top: 40px;
+  }
+  .apartmanContainer {
+    width: 200px;
   }
 
   .apartmanLinks img {
-    width: 200px;
+    width: 100%;
   }
   .apartmanLinks a {
     font-size: 12px;
