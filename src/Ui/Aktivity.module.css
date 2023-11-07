@@ -40,7 +40,8 @@
 }
 
 .section h3,
-.section h2 {
+.section h2,
+.section h4 {
   text-transform: uppercase;
   margin-top: 20px;
 }

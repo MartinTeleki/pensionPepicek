@@ -197,8 +197,9 @@ function Aktivity() {
         </section>
 
         <section className={styles.section}>
-          <h3>Další zajimavé místa v okolí.</h3>
+          <h3>Další zajimavé místa v okolí</h3>
 
+          <h4>Hrady:</h4>
           <Link
             to="https://www.hrady.cz/?OID=376"
             target="_blank"
@@ -206,13 +207,17 @@ function Aktivity() {
           >
             Hrad Hus
           </Link>
+
           <Link
-            to=" https://www.zamek-vimperk.cz/cs"
+            to="https://www.jiznicechy.cz/turisticke-cile/305-hrad-rozmberk"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Zámek Vimperk
+            Hrad Rožmberk
           </Link>
+
+          <h4>Zámky:</h4>
+
           <Link
             to="http://www.zamekskalice.cz/"
             target="_blank"
@@ -220,6 +225,16 @@ function Aktivity() {
           >
             Zámek Skalice
           </Link>
+
+          <Link
+            to=" https://www.zamek-vimperk.cz/cs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Zámek Vimperk
+          </Link>
+
+          <h4>Ostatní:</h4>
           <Link
             to="https://cs-cz.facebook.com/kamennespiraly/"
             target="_blank"
@@ -227,6 +242,8 @@ function Aktivity() {
           >
             Menhiry u Pěčnova
           </Link>
+
+          <h4>Rybníky a vodní nádrže:</h4>
           <Link
             to="http://www.sumava.cz/objekt_az/232-kristanovicky-rybnik/"
             target="_blank"
@@ -234,6 +251,17 @@ function Aktivity() {
           >
             Křišťanovický rybník
           </Link>
+
+          <Link
+            to=" https://www.muzeum-st.cz/cs/mlyn-hoslovice/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Mlýn Hoslovice
+          </Link>
+
+          <h4>Bazény:</h4>
+
           <Link
             to="http://szmpt.cz/plavecky-bazen/"
             target="_blank"
@@ -241,6 +269,7 @@ function Aktivity() {
           >
             Krytý plavecký bazén Prachatice
           </Link>
+
           <Link
             to="https://www.sumava.info/volny-cas/koupani-a-vodni-sporty/verejne-koupaliste-hulak-prachatice/"
             target="_blank"
@@ -255,9 +284,21 @@ function Aktivity() {
           >
             Plavecký bazén Volary
           </Link>
+
+          <Link
+            to="https://www.mesto.vimperk.cz/cz/koupaliste/120/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Koupaliště Vimperk
+          </Link>
+
+          <h4>Sportovní zařízení:</h4>
           <Link to="http://szmpt.cz/" target="_blank" rel="noopener noreferrer">
             Sportovní zařízení Prachatice
           </Link>
+
+          <h4>Výšlapy a cesty:</h4>
           <Link
             to=" https://www.jiznicechy.cz/turisticke-cile/699-hornicka-naucna-stezka-albrechtovice"
             target="_blank"
@@ -266,19 +307,23 @@ function Aktivity() {
             Hornická naučná cesta Albrechtovice
           </Link>
           <Link
+            to="https://www.jiznicechy.cz/turisticke-cile/202-poutni-areal-lomec"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Poutní areál Lomec
+          </Link>
+          <h4>Lanové parky:</h4>
+          <Link
             to="https://www.sumava.info/volny-cas/lanove-parky/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Lanové parky
           </Link>
-          <Link
-            to="https://www.mesto.vimperk.cz/cz/koupaliste/120/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Koupaliště Vimperk
-          </Link>
+
+          <h4>Města a vesnice:</h4>
+
           <Link
             to=" https://www.jiznicechy.cz/turisticke-cile/33-holasovice-unesco-selske-baroko"
             target="_blank"
@@ -286,27 +331,7 @@ function Aktivity() {
           >
             Holašovice
           </Link>
-          <Link
-            to=" https://www.muzeum-st.cz/cs/mlyn-hoslovice/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Mlýn Hoslovice
-          </Link>
-          <Link
-            to="https://www.jiznicechy.cz/turisticke-cile/369-prachenske-muzeum-v-pisku"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Prácheňské muzeum v Písku
-          </Link>
-          <Link
-            to="https://www.jiznicechy.cz/turisticke-cile/305-hrad-rozmberk"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Hrad Rožmberk
-          </Link>
+
           <Link
             to="https://www.jiznicechy.cz/turisticke-cile/392-centrum-mistra-jana-husa-husinec"
             target="_blank"
@@ -314,6 +339,19 @@ function Aktivity() {
           >
             Centrum mistra Jana Husa v Husinci
           </Link>
+
+          <h4>Muzea:</h4>
+
+          <Link
+            to="https://www.jiznicechy.cz/turisticke-cile/369-prachenske-muzeum-v-pisku"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Prácheňské muzeum v Písku
+          </Link>
+
+          <h4>Pivovary:</h4>
+
           <Link
             to=" https://www.jiznicechy.cz/turisticke-cile/134-navstevnicke-centrum-budvar"
             target="_blank"
@@ -321,6 +359,8 @@ function Aktivity() {
           >
             Návštěvnické centrum Budvar
           </Link>
+
+          <h4>Technika:</h4>
           <Link
             to="https://www.cez.cz/cs/o-spolecnosti/kontakty-skupina-cez/informacni-centra/jaderna-elektrarna-temelin.html"
             target="_blank"
@@ -328,19 +368,13 @@ function Aktivity() {
           >
             Infocentrum elektrárny Temelín
           </Link>
+          <h4>Historie:</h4>
           <Link
             to="https://www.jiznicechy.cz/turisticke-cile/343-archeopark-netolice"
             target="_blank"
             rel="noopener noreferrer"
           >
             Archeopark Netolice
-          </Link>
-          <Link
-            to="https://www.jiznicechy.cz/turisticke-cile/202-poutni-areal-lomec"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Poutní areál Lomec
           </Link>
         </section>
       </article>
