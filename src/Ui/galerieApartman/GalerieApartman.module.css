@@ -23,8 +23,6 @@
   text-align: justify;
 }
 
-
-
 .apartmanSection img {
   width: 400px;
   height: auto;
@@ -54,5 +52,15 @@
 
   .apartmanSection {
     max-width: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .apartmanSection img {
+    width: 200px;
+  }
+
+  .apartmanSection {
+    max-width: 200px;
   }
 }
