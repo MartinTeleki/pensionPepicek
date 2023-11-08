@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   margin: 120px 20px 120px 20px;
-  
 }
 
 .leftColumn {
@@ -59,7 +58,7 @@
 
   .leftColumn {
     width: 100%;
-    margin: 20px;
+    margin: 120px 20px;
   }
 
   .rightColumn {
