@@ -13,7 +13,6 @@
 
 .apartmanSection {
   margin: 40px 20px;
-
 }
 
 .apartmanSection h2 {
@@ -32,7 +31,6 @@
   margin-top: 20px;
   border: 2px solid rgb(7, 57, 7);
   border-radius: 8px;
-  
 }
 
 .button {
@@ -73,6 +71,9 @@
 }
 
 @media (max-width: 500px) {
+  .price {
+    font-size: 1rem;
+  }
   .apartmanSection img {
     width: 300px;
   }
@@ -83,6 +84,10 @@
 }
 
 @media (max-width: 340px) {
+  .price {
+    font-size: 0.8rem;
+  }
+
   .apartmanSection img {
     width: 200px;
   }

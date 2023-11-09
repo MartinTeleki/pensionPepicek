@@ -3,7 +3,7 @@ import styles from "./infoPrice.module.css";
 function InfoPrice() {
   return (
     <div>
-      <p>
+      <p className={styles.price}>
         Zapůjčení dětské postýlky/1 noc{" "}
         <span className={styles.fullPrice}>50 Kč.</span>
       </p>

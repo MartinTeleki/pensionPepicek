@@ -15,6 +15,7 @@ function Price() {
           <li className={styles.grey}>
             Plně obsazený: <br /> Kč 3500 / noc
           </li>
+          <li className={styles.white}>2x manželská postel + 3x jednolůžko</li>
 
           <li className={styles.grey}>
             <ButtonInfo to="/ubytovani/slunce" className={styles.button}>
@@ -34,6 +35,7 @@ function Price() {
           <li className={styles.grey}>
             Plně obsazený: <br /> Kč 1650 / noc
           </li>
+          <li className={styles.white}>1x manželská postel + 1x jednolůžko</li>
 
           <li className={styles.grey}>
             <ButtonInfo to="/ubytovani/jezero" className={styles.button}>
@@ -52,6 +54,7 @@ function Price() {
           <li className={styles.grey}>
             Plně obsazený: <br /> Kč 3200 / noc
           </li>
+          <li className={styles.white}>1x manželská postel + 4* jednolůžko</li>
 
           <li className={styles.grey}>
             <ButtonInfo to="/ubytovani/pohoda" className={styles.button}>
@@ -71,6 +74,7 @@ function Price() {
           <li className={styles.grey}>
             Plně obsazený: <br /> Kč 1650 / noc
           </li>
+          <li className={styles.white}>1x manželská postel + 1x jednolůžko</li>
 
           <li className={styles.grey}>
             <ButtonInfo to="/ubytovani/nadkolarnou" className={styles.button}>
@@ -89,6 +93,7 @@ function Price() {
           <li className={styles.grey}>
             Plně obsazený: <br /> Kč 2200 / noc
           </li>
+          <li className={styles.white}>1x manželská postel + 2x jednolůžko</li>
 
           <li className={styles.grey}>
             <ButtonInfo to="/ubytovani/nadkrcmou" className={styles.button}>
@@ -104,6 +109,7 @@ function Price() {
           <li className={styles.header}>Sál a prostory restaurace</li>
           <li className={styles.grey}>Vše po domluvě s majiteli</li>
           <li className={styles.grey}>Soukromé, rodinné a firemní akce.</li>
+          <li className={styles.white}></li>
 
           <li className={styles.grey}>
             <ButtonInfo to="/kontakt" className={styles.button}>
