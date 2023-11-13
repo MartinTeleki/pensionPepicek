@@ -4,15 +4,14 @@
   justify-content: center;
   flex-direction: column;
   background: rgb(222, 222, 222);
-  /* margin: 40px 0px;
-      background: url("../img/pension3.jpg") center;
-      background-size: cover; */
   margin-top: 120px;
+  padding: 20px;
 }
 
 .article {
-  margin-bottom: 100px;
-  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding: 20px;
 }
 
 .section {
@@ -29,14 +28,15 @@
 
 .section a {
   text-decoration: none;
-  color: black;
+  color: #4caf50;
   margin: 10px 0;
   font-size: 18px;
+  transition: color 0.3s ease;
 }
 
 .section a:hover {
   text-decoration: underline;
-  color: black;
+  color: #2e7d32;
 }
 
 .section h3,
@@ -47,10 +47,12 @@
 }
 
 .section img {
-  width: 400px;
+  width: 100%;
+  max-width: 600px;
   height: auto;
   margin-top: 20px;
-  border: 2px solid rgb(7, 57, 7);
+  border: 2px solid #073907;
+  border-radius: 8px;
 }
 
 .blurImage {
@@ -60,8 +62,6 @@
 
 @media (max-width: 500px) {
   .layout {
-    display: flex;
-
     font-size: 14px;
   }
 
@@ -70,14 +70,12 @@
   }
 
   .section img {
-    width: 300px;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 281px) {
   .layout {
-    display: flex;
-
     font-size: 12px;
   }
 
@@ -86,6 +84,6 @@
   }
 
   .section img {
-    width: 200px;
+    max-width: 100%;
   }
 }

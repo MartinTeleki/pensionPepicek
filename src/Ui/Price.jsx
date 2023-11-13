@@ -2,6 +2,21 @@ import styles from "./Price.module.css";
 import { Link } from "react-router-dom";
 import ButtonInfo from "./galerieApartman/ButtonInfo";
 
+
+//Cena za noc
+const SlunceCenaNoc = 650;
+const JezeroCenaNoc = 650;
+const PohodaCenaNoc = 650;
+const KolarnaCenaNoc = 650;
+const KrcmaCenaNoc = 650;
+
+//cena za noc plně pbsazeno
+const SluncePlneObsazenoNoc = 3500;
+const JezeroPlneObsazenoNoc = 1650;
+const PohodaPlneObsazenoNoc = 3200;
+const KolarnaPlneObsazenoNoc = 1650;
+const KrcmaPlneObsazenoNoc = 2200;
+
 function Price() {
   return (
     <>
@@ -10,10 +25,10 @@ function Price() {
         <ul className={styles.price}>
           <li className={styles.header}>Apartmán Slunce</li>
           <li className={styles.grey}>
-            Osoba: <br /> Kč 650 / noc
+            Osoba: <br /> Kč {SlunceCenaNoc} / noc
           </li>
           <li className={styles.grey}>
-            Plně obsazený: <br /> Kč 3500 / noc
+            Plně obsazený: <br /> Kč {SluncePlneObsazenoNoc} / noc
           </li>
           <li className={styles.white}>2x manželská postel + 3x jednolůžko</li>
 
@@ -30,10 +45,10 @@ function Price() {
         <ul className={styles.price}>
           <li className={styles.header}>Apartmán Jezero</li>
           <li className={styles.grey}>
-            Osoba: <br /> Kč 650 / noc
+            Osoba: <br /> Kč {JezeroCenaNoc} / noc
           </li>
           <li className={styles.grey}>
-            Plně obsazený: <br /> Kč 1650 / noc
+            Plně obsazený: <br /> Kč {JezeroPlneObsazenoNoc} / noc
           </li>
           <li className={styles.white}>1x manželská postel + 1x jednolůžko</li>
 
@@ -49,10 +64,10 @@ function Price() {
         <ul className={styles.price}>
           <li className={styles.header}>Apartmán Pohoda</li>
           <li className={styles.grey}>
-            Osoba: <br /> Kč 650 / noc
+            Osoba: <br /> Kč {PohodaCenaNoc} / noc
           </li>
           <li className={styles.grey}>
-            Plně obsazený: <br /> Kč 3200 / noc
+            Plně obsazený: <br /> Kč {PohodaPlneObsazenoNoc} / noc
           </li>
           <li className={styles.white}>1x manželská postel + 4* jednolůžko</li>
 
@@ -69,10 +84,10 @@ function Price() {
         <ul className={styles.price}>
           <li className={styles.header}>Apartmán Nad Kolárnou</li>
           <li className={styles.grey}>
-            Osoba: <br /> Kč 650 / noc
+            Osoba: <br /> Kč {KolarnaCenaNoc} / noc
           </li>
           <li className={styles.grey}>
-            Plně obsazený: <br /> Kč 1650 / noc
+            Plně obsazený: <br /> Kč {KolarnaPlneObsazenoNoc} / noc
           </li>
           <li className={styles.white}>1x manželská postel + 1x jednolůžko</li>
 
@@ -88,10 +103,10 @@ function Price() {
         <ul className={styles.price}>
           <li className={styles.header}>Apartmán Nad Krčmou</li>
           <li className={styles.grey}>
-            Osoba: <br /> Kč 650 / noc
+            Osoba: <br /> Kč {KrcmaCenaNoc} / noc
           </li>
           <li className={styles.grey}>
-            Plně obsazený: <br /> Kč 2200 / noc
+            Plně obsazený: <br /> Kč {KrcmaPlneObsazenoNoc} / noc
           </li>
           <li className={styles.white}>1x manželská postel + 2x jednolůžko</li>
 

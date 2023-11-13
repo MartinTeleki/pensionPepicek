@@ -4,22 +4,20 @@
   text-align: center;
   justify-content: center;
   margin-top: 120px;
-  
-
-
 }
-
-
 
 .apartmanContainer {
   margin-top: 40px;
   height: auto;
   width: 404px;
-  /* background: linear-gradient(to left, #76411b, #a2550d); */
   background: rgb(7, 57, 7);
   border: 2px solid rgb(7, 57, 7);
   border-radius: 8px;
-  
+  transition: background 0.3s ease-in-out;
+}
+
+.apartmanContainer:hover {
+  background: linear-gradient(to left, #76411b, #a2550d);
 }
 
 .apartmanLinks {
@@ -35,8 +33,7 @@
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  transition: color 0.1s ease-in-out, transform 0.1s ease-in-out,
-    opacity 0.1s ease-in-out;
+  transition: color 0.1s ease-in-out, transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
 }
 
 .apartmanLinks a:hover {
@@ -51,8 +48,9 @@
 .apartmanLinks a:active {
   transform: scale(0.96);
 }
+
 .apartmanLinks img {
-  width: 400px;
+  width: 100%;
   height: auto;
   transform: translateY(4px);
 }
@@ -60,8 +58,6 @@
 .priceContainer {
   margin: 120px 0;
 }
-
-
 
 @media (max-width: 500px) {
   .layout {
@@ -75,6 +71,7 @@
   .apartmanLinks img {
     width: 100%;
   }
+  
   .apartmanLinks a {
     font-size: 14px;
   }
@@ -84,6 +81,7 @@
   .layout {
     margin-top: 120px;
   }
+
   .apartmanContainer {
     width: 200px;
   }
@@ -91,6 +89,7 @@
   .apartmanLinks img {
     width: 100%;
   }
+
   .apartmanLinks a {
     font-size: 12px;
   }

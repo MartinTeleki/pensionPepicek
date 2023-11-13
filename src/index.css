@@ -2,7 +2,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  
 }
 
 .app {
@@ -12,19 +11,11 @@
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  
- 
 }
 
-
-
-
-
-
-img{
+img {
   border-radius: 8px;
 }
-
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
@@ -34,6 +25,24 @@ img{
   margin-right: 5px;
   cursor: pointer;
 }
+
+/* Scrollbar */
+
+html::-webkit-scrollbar {
+  width: 20px;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgb(222, 222, 222);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(to left, #76411b, #a2550d);
+  border: 3px solid rgb(7, 57, 7);
+}
+
+/* scrollbar */
 
 @media (max-width: 500px) {
   .material-symbols-outlined {
