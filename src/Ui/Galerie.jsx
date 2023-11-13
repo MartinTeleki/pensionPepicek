@@ -4,7 +4,7 @@ import pokojnadkolarnou from "../img/pokojnadkolarnou.webp";
 import pokojnadkrcmou from "../img/pokojnadkrcmou.webp";
 import pokojslunce from "../img/pokojslunce.webp";
 import pokojpohoda from "../img/pokojpohoda.webp";
-import pokojjezero from "../img/pokojjezero.webp";
+import jezero5 from "../img/jezero5.webp";
 import okoli1 from "../img/okoli1.webp";
 import apartman1 from "../img/apartman1.webp";
 import bar5 from "../img/bar5.webp";
@@ -49,7 +49,7 @@ function Galerie() {
             <Link to="/galerie/jezero">Galerie apartmán Jezero</Link>
           </div>
           <div>
-            <img src={pokojjezero} alt="pokoj Jezero" />
+            <img src={jezero5} alt="pokoj Jezero" />
           </div>
         </div>
 

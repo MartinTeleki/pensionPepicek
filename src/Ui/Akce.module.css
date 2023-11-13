@@ -20,10 +20,12 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  
 }
 
 .section p {
   margin: 10px 0;
+ 
   color: black;
 }
 

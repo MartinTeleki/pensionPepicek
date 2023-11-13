@@ -65,7 +65,15 @@ function Akce() {
         <section className={styles.section}></section>
       </article>
       {/* Silvestr */}
-      <article className={styles.article}>
+      <article
+        className={styles.article}
+        style={{
+          backgroundColor: "#fff",
+          width: "100%",
+          paddingTop: "80px",
+          paddingBottom: "80px",
+        }}
+      >
         <section className={styles.section}>
           <h3>SILVESTR 2023 oslavte s námi s živou hudbou.</h3>
           <div>
@@ -124,7 +132,15 @@ function Akce() {
         </section>
       </article>
       {/* Soukromé akce */}
-      <article className={styles.article}>
+      <article
+        className={styles.article}
+        style={{
+          backgroundColor: "#fff",
+          width: "100%",
+          paddingTop: "80px",
+          paddingBottom: "80px",
+        }}
+      >
         <section className={styles.section}>
           <h3>Pořádáme soukromé i firemní akce</h3>
 

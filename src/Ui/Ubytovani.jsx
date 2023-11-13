@@ -10,6 +10,8 @@ import pokojjezero from "../img/pokojjezero.webp";
 function Ubytovani() {
   return (
     <>
+
+    
       <div className={styles.layout}>
         <ul className={styles.apartmanLinks}>
           <div className={styles.apartmanContainer}>
@@ -51,11 +53,15 @@ function Ubytovani() {
               <img src={pokojjezero} alt="pokoj Jezero" />
             </div>
           </div>
+          
         </ul>
       </div>
       <div className={styles.priceContainer}>
+       
         <Price />
       </div>
+      
+    
     </>
   );
 }
