@@ -2,7 +2,7 @@ import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
 import FacebookIcon from "@mui/icons-material/Facebook";
 
-console.log(FacebookIcon);
+
 
 export default function Footer() {
   const phoneNumber = "+420 777 138 131";

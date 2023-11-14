@@ -14,27 +14,36 @@ $nunito-font: "Nunito", sans-serif;
     transform: translateY(0px);
   }
   65% {
-    transform: translateY(15px);
+    transform: translateY(50px);
   }
   to {
     transform: translateY(-0px);
   }
 }
 
+.contaimer{
+  body{
+    background-image: url('https://assets.codepen.io/1538474/star.svg'),linear-gradient(to bottom, #05007A, #4D007D);
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+}
+
 .mars {
+  position: absolute;
+  z-index: 10000;
+  height: 100vh;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  position: absolute;
-  height: 27vmin;
   background: url("https://assets.codepen.io/1538474/mars.svg") no-repeat bottom
     center;
   background-size: cover;
   background-image: url("https://assets.codepen.io/1538474/star.svg"),
     linear-gradient(to bottom, #05007a, #4d007d);
-  height: 100%;
-  margin: 0;
-  background-attachment: fixed;
   overflow: hidden;
 }
 
@@ -46,6 +55,7 @@ $nunito-font: "Nunito", sans-serif;
   right: 0;
   top: 16vmin;
   width: 30vmin;
+  z-index: 1;
 
   @include breakpoint(mobile) {
     top: 45vmin;
@@ -105,7 +115,7 @@ $nunito-font: "Nunito", sans-serif;
   top: 18vmin;
   left: 10vmin;
   height: 30vmin;
-  animation: floating 3s infinite ease-in-out;
+  animation: floating 4s infinite ease-in-out;
 
   @include breakpoint(mobile) {
     top: 2vmin;
@@ -119,6 +129,6 @@ $nunito-font: "Nunito", sans-serif;
 
   @include breakpoint(mobile) {
     width: 45vmin;
-    bottom: 18vmin;
+    bottom: 108vmin;
   }
 }

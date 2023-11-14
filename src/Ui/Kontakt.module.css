@@ -5,6 +5,7 @@
   align-items: center;
   margin: 120px 20px 120px 20px;
   
+  
 }
 
 .leftColumn {
@@ -38,13 +39,13 @@
 
 @media (min-width: 1400px) {
   .container {
-    margin-bottom: 280px;
+   
   }
 }
 
 @media (min-height: 1000px) {
   .container {
-    margin-bottom: 330px;
+    
   }
 }
 
@@ -54,7 +55,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 120px 20px 120px 20px;
+    margin: 0px 20px 0px 20px;
   }
 
   .leftColumn {
@@ -92,7 +93,7 @@
   }
   .rightColumn {
     width: 100%;
-    margin: 20px 0px;
+    margin: 20px 0 0 0px;
   }
   .map {
     width: 240px;

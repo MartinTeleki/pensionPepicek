@@ -1,20 +1,21 @@
 import styles from "./Error.module.css";
-import React from "react";
 import { useNavigate } from "react-router";
 
 function Error() {
   const navigate = useNavigate(); 
 
   return (
+    <div className={styles.container}>
+
     <div className={styles.mars}>
       <img
         src="https://assets.codepen.io/1538474/404.svg"
         className={styles.logo404}
-      />
+        />
       <img
         src="https://assets.codepen.io/1538474/meteor.svg"
         className={styles.meteor}
-      />
+        />
       <p className={styles.title}>Ah ne!!</p>
       <p className={styles.subtitle}>
         Špatně si napsal URL 😭 <br />
@@ -31,8 +32,9 @@ function Error() {
       <img
         src="https://assets.codepen.io/1538474/spaceship.svg"
         className={styles.spaceship}
-      />
+        />
     </div>
+        </div>
   );
 }
 

@@ -9,7 +9,7 @@ import pokojjezero from "../img/pokojjezero.webp";
 
 function Ubytovani() {
   return (
-    <>
+    <div>
 
     
       <div className={styles.layout}>
@@ -62,7 +62,7 @@ function Ubytovani() {
       </div>
       
     
-    </>
+    </div>
   );
 }
 
