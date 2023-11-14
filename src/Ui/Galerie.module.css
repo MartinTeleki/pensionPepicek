@@ -77,15 +77,17 @@
 .apartmanContainer {
   margin-top: 40px;
   height: auto;
-  width: 404px;
+  width: 410px;
   /* background: linear-gradient(to left, #76411b, #a2550d); */
   background: rgb(7, 57, 7);
-  border: 2px solid rgb(7, 57, 7);
+  border: 5px solid white;
   border-radius: 8px;
+  transition: background 0.3s ease-in-out;
 }
 
 .apartmanContainer:hover {
   background: linear-gradient(to left, #76411b, #a2550d);
+  border: 5px solid rgb(7, 57, 7);
 }
 
 .apartmanLinks {

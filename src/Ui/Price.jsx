@@ -2,7 +2,6 @@ import styles from "./Price.module.css";
 import { Link } from "react-router-dom";
 import ButtonInfo from "./galerieApartman/ButtonInfo";
 
-
 //Cena za noc
 const SlunceCenaNoc = 650;
 const JezeroCenaNoc = 650;

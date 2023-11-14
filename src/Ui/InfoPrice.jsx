@@ -1,7 +1,7 @@
 import styles from "./infoPrice.module.css";
 
 const postylkaCena = 50;
-const mazlicci = 100;
+const mazlicciCena = 100;
 const minimalniDelkaRezervaceObdobi = "1.7. 30.8.";
 const minimalniDelkaObytovani = "7 nocí";
 
@@ -15,7 +15,7 @@ function InfoPrice() {
       <br />
       <p>
         Vaše domácí miláčky po domluvě rádi ubytujeme /1 noc{" "}
-        <span className={styles.fullPrice}>{mazlicci} Kč.</span>
+        <span className={styles.fullPrice}>{mazlicciCena} Kč.</span>
       </p>
       <br />
 

@@ -29,7 +29,7 @@ img {
 /* Scrollbar */
 
 html::-webkit-scrollbar {
-  width: 20px;
+  width: 15px;
 }
 
 html::-webkit-scrollbar-track {
@@ -48,10 +48,31 @@ html::-webkit-scrollbar-thumb {
   .material-symbols-outlined {
     font-size: 14px;
   }
+
+  html::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  html::-webkit-scrollbar-track {
+  }
+
+  html::-webkit-scrollbar-thumb {
+    border: 2px solid rgb(7, 57, 7);
+  }
 }
 
 @media (max-width: 281px) {
   .material-symbols-outlined {
     font-size: 12px;
+  }
+  html::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  html::-webkit-scrollbar-track {
+  }
+
+  html::-webkit-scrollbar-thumb {
+    border: 1px solid rgb(7, 57, 7);
   }
 }
