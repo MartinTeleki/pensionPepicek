@@ -88,6 +88,7 @@
 .apartmanContainer:hover {
   background: linear-gradient(to left, #76411b, #a2550d);
   border: 5px solid rgb(7, 57, 7);
+  transform: scale(0.98);
 }
 
 .apartmanLinks {

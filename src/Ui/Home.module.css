@@ -65,6 +65,7 @@
 .welcomeSection2:hover {
   background: linear-gradient(to bottom right, #76411b, #a2550d);
   border: 5px solid rgb(7, 57, 7);
+  transform: scale(0.98);
 }
 
 .welcomeTitle2 {

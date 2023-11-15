@@ -56,6 +56,10 @@
   border-radius: 8px;
 }
 
+.section img:hover {
+  transform: scale(0.98);
+}
+
 .blurImage {
   filter: blur(10px);
   transition: filter 0.3s ease;
