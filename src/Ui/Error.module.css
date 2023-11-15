@@ -21,9 +21,10 @@ $nunito-font: "Nunito", sans-serif;
   }
 }
 
-.contaimer{
-  body{
-    background-image: url('https://assets.codepen.io/1538474/star.svg'),linear-gradient(to bottom, #05007A, #4D007D);
+.contaimer {
+  body {
+    background-image: url("https://assets.codepen.io/1538474/star.svg"),
+      linear-gradient(to bottom, #05007a, #4d007d);
     height: 100%;
     margin: 0;
     background-attachment: fixed;
@@ -99,6 +100,7 @@ $nunito-font: "Nunito", sans-serif;
   font-family: $nunito-font;
   text-decoration: none;
   border-radius: 5px;
+  z-index: 10;
 
   &:hover {
     background: white;
@@ -130,5 +132,12 @@ $nunito-font: "Nunito", sans-serif;
   @include breakpoint(mobile) {
     width: 45vmin;
     bottom: 108vmin;
+  }
+}
+
+@media (max-width: 600px) {
+  .astronaut {
+    margin-top: 50%;
+    margin-left: 50%;
   }
 }
